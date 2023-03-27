@@ -27,7 +27,11 @@ The **folder_sync.py** is a python script that performs a one-way synchronizatio
       `rm replica/file`
       `cp source/file replica`
       
-  - All the file operations (copy/delete/update) are logged into a text file using the log function and they are also printed to the terminal.      
+  - All the file operations (copy/delete/update) are logged into a text file using the **log** function and they are also printed to the terminal.
+
+  - The **sync_replica** function is used for the copy/delete/update operations.
+
+  - The **compare_2_files** is the function used for comparing 2 files with the same name by checking their hashes. 
       
         
        
